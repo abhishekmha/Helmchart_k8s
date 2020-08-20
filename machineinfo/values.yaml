@@ -16,7 +16,7 @@ fullnameOverride: ""
 service:
   type: LoadBalancer
   port: 9000
-  targetPort: 31000 
+  targetPort: 9000 
   ExternalIP: 192.27.0.1
 
 ingress:
